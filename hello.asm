@@ -10,7 +10,7 @@ main:
 	mov rsi, msg
 	mov rdx, 14
 	syscall
-	
+	start
 	mov rax, 60
 	mov rdi, 0
 	syscall
