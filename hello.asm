@@ -1,3 +1,4 @@
+; specifies the format to be an ELF executable 64bit
 format ELF64 executable
 
 segment readable executable
