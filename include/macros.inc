@@ -16,3 +16,11 @@ macro write fd, buf, size {
 	mov rdx, size
 	syscall
 }
+
+macro write_newline {
+	write STD_OUT, newline, 1
+}
+
+segment readable writeable
+
+newline db 10
