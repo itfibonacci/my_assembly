@@ -15,5 +15,7 @@ print_loop:
 end_program:
 	exit 0
 
+segment readable writeable
+
 msg db "Hello", 10
 msg_len = $ - msg
