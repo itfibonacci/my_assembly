@@ -1,5 +1,6 @@
 SYSCALL_EXIT = 60
 SYSCALL_WRITE = 1
+STD_IN = 0
 STD_OUT = 1
 
 macro exit code {
